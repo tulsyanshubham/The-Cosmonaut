@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/The-Cosmonaut/static/css/main.16af59cb.css",
+    "main.js": "/The-Cosmonaut/static/js/main.44d13955.js",
+    "static/media/home1.jpg": "/The-Cosmonaut/static/media/home1.bb72357c15237e23e172.jpg",
+    "static/media/backgroung2.jpg": "/The-Cosmonaut/static/media/backgroung2.ff0e38a99a4bbd602e95.jpg",
+    "static/media/home2.jpg": "/The-Cosmonaut/static/media/home2.b640859a5d2778e3cbeb.jpg",
+    "static/media/contact.jpg": "/The-Cosmonaut/static/media/contact.129607c92b03434751ee.jpg",
+    "static/media/space_cmd_id.pdf": "/The-Cosmonaut/static/media/space_cmd_id.db2fe2c84d76245e303d.pdf",
+    "static/media/instagram.png": "/The-Cosmonaut/static/media/instagram.ed5ed57e98d053cf1e55.png",
+    "static/media/x.png": "/The-Cosmonaut/static/media/x.ab1bf298218684bb5b1e.png",
+    "static/media/Spinner-0.7s-200px.gif": "/The-Cosmonaut/static/media/Spinner-0.7s-200px.c7b93d70435b8ef34bf1.gif",
+    "static/media/imagenotfound.png": "/The-Cosmonaut/static/media/imagenotfound.53acc43530294043db20.png",
+    "static/media/facebook.png": "/The-Cosmonaut/static/media/facebook.bb6a349297bb03ac93f8.png",
+    "static/media/icon.png": "/The-Cosmonaut/static/media/icon.d92f21833daa31a5b01d.png",
+    "static/media/youtube.png": "/The-Cosmonaut/static/media/youtube.823714282cbada6be4ed.png",
+    "index.html": "/The-Cosmonaut/index.html",
+    "main.16af59cb.css.map": "/The-Cosmonaut/static/css/main.16af59cb.css.map",
+    "main.44d13955.js.map": "/The-Cosmonaut/static/js/main.44d13955.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16af59cb.css",
+    "static/js/main.44d13955.js"
+  ]
+}
