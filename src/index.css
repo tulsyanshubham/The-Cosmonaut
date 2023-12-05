@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  box-sizing: border-box;
+  font-family: "Heebo", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.navigatation {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  padding: 14px 10px 3px 10px;
+  justify-content: space-between;
+  padding: 14px 15px 9px 0px;
+  width: 100%;
+  align-items: center;
+  background-color: black;
+}
+.navpoint:active {
+  opacity: 0.8;
+}
+.navbutton {
+  display: flex;
+  flex-direction: row;
+}
+
+.line {
+  background-color: white;
+  height: 1.2px;
+  width: 0;
+  transition: width 0.2s ease-in-out;
+}
+
+.title {
+  margin: 0 0 0 31px;
+  font-size: 1.5vw;
+}
+
+.but {
+  font-size: 1.3vw;
+  margin: 0 23px;
+}
+
+.home-box {
+  margin: 3.7vw 0 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.home-content {
+  width: 40vw;
+}
+
+.heading {
+  font-size: 2.9vw;
+  margin: 0 0 18px 0;
+}
+.content {
+  font-size: 1.4vw;
+}
+.home-btn {
+  font-size: 1.2vw;
+  background: none;
+  border: 1.5px solid white;
+  padding: 10px 0;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 30px;
+  width: 12vw;
+  margin: 0 2vw;
+  margin-top: 3vw;
+}
+button:hover {
+  opacity: 0.8;
+}
+button:active {
+  opacity: 0.6;
+}
+.home-grand {
+  font-size: 9vw;
+  font-style: bold;
+  display: flex;
+  justify-content: center;
+  margin: 0 0 4.5vw 0;
+}
+.home-grand span {
+  font-family: "Heebo", sans-serif;
+}
+.box1 {
+  background: url("./Image/backgroung2.jpg") no-repeat center center/cover;
+  height: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.box2 {
+  background: url(./Image/home1.jpg) no-repeat center center/cover;
+  height: 35vw;
+  display: flex;
+  align-items: center;
+}
+.box2box {
+  width: 46%;
+  margin: 0 0 0 3.5vw;
+}
+.box3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.box3img {
+  background: url("./Image/home2.jpg") no-repeat center center/cover;
+  height: 35vw;
+  width: 180vw;
+}
+.box3box {
+  padding: 0 3vw;
+}
+.box4 {
+  display: flex;
+  flex-direction: row;
+  height: 18vw;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.verline {
+  height: 14vw;
+  width: 1px;
+  background-color: white;
+}
+.box4box {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1vw;
+}
+.box4title {
+  font-size: 3.3vw;
+}
+
+.logoimage {
+  width: 2.5vw;
+  margin: 0 0.53vw;
+  cursor: pointer;
+}
+.logoimage:hover {
+  filter: drop-shadow(0 0 2px white);
+}
+.ml {
+  margin-left: 14vw;
+}
+.mr {
+  margin-right: 15vw;
+}
+.linebox {
+  display: flex;
+  justify-content: center;
+}
+.horiline {
+  width: 90%;
+  height: 1.3px;
+  background-color: white;
+}
+.box5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3vw 15vw;
+}
+.box5 span {
+  text-align: center;
+}
+
+.contactus {
+  background: url("./Image/contact.jpg") no-repeat center center/cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contactbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  
+}
+
+.contactbox input,
+.contactbox textarea,
+.satellitemain input,
+.satellitemain textarea  {
+  border-radius: 30px;
+  padding: 5px 10px;
+  color: black;
+  width: 25vw;
+  font-size: 18px;
+  font-style: bold;
+}
+.contactbox textarea {
+  border-radius: 15px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.satellitemain button {
+  border-radius: 30px;
+  padding: 4px 30px;
+  background: none;
+  border: 1px solid white;
+  font-size: 20px;
+}
+.contactbox button {
+  border-radius: 30px;
+  padding: 5px 40px;
+  background: none;
+  border: 1px solid white;
+  font-size: 22px;
+}
+.contacttitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contacttitle span {
+  font-size: 3vw;
+}
+.my {
+  margin: 6px 0;
+}
+
+.satellitemain {
+  background: url("./Image/contact.jpg") no-repeat center center/cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.satdata {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 29vw;
+  padding: 9px 19px;
+  border-radius: 17px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 1.8vw;
+  margin: 0 0 0 9vw;
+}
+.active{
+  width:auto;
+}
+
+.launchcard{
+  width: 26vw;
+  margin: 0vw 2vw 0vw 2vw;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 30px;
+  padding: 1.5vw;
+}
+
+.astronomy{
+  background: url("./Image/contact.jpg") no-repeat center center/cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.astronomybox{
+  display: flex;
+  margin: 2vw 4vw;
+  padding: 2vw 2vw;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.7);
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+}
+.astronomydata{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.active{
+  width:auto;
+}
