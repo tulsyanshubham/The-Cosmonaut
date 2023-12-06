@@ -40,7 +40,7 @@ export default function ContactUs() {
           </div>
           <div className='my'>
             <div><label htmlFor='email'>EMAIL</label></div>
-            <div><input type="text" name="email" id="email" onChange={handleInput} /></div>
+            <div><input type="email" name="email" id="email" onChange={handleInput} /></div>
           </div>
           <div className='my'>
             <div><label htmlFor='phone'>PHONE NO</label></div>
