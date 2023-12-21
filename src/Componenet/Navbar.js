@@ -30,7 +30,7 @@ export default function Navbar() {
     <div>
       <nav className="navigatation">
         <div className="title">
-            <div><a href="/The-Cosmonaut"><img src={icon} alt="Icon Not Loaded" className="h1 my-3"style={{width:"12vw"}}/></a></div>
+            <div onClick="reload"><Link href="/The-Cosmonaut"><img src={icon} alt="Icon Not Loaded" className="h1 my-3"style={{width:"12vw"}}/></Link></div>
         </div>
         <div className="navbutton">
             <div className="but">

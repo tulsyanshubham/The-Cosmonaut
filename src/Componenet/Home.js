@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-router-dom";
 import instagram from '../Image/instagram.png'
 import x from '../Image/x.png'
 import youtube from '../Image/youtube.png'
@@ -23,14 +24,14 @@ export default function Home() {
             </div>
             <div className="box2">
                 <div className="box2box">
-                    <div className="heading">Track satellites and ISS in Realtime</div>
-                    <div className="content">Experience live satellite tracking on our space exploration website for real-time updates on celestial journeys. We use N2YO’S database for latest information.</div>
+                    <div className="heading home-hover"><Link to="/The-Cosmonaut/satellites">Track satellites and ISS in Realtime</Link></div>
+                    <div className="content">Experience live satellite tracking on our space exploration website for real-time updates on celestial journeys. We use NASA’S & N2YO’S databases for latest information.</div>
                 </div>
             </div>
             <div className="box3">
                 <div className="box3img"></div>
                 <div className="box3box">
-                    <div className="heading">Be Informed about latest missions and discoveries</div>
+                    <div className="heading home-hover"><Link to="/The-Cosmonaut/missons">Be Informed about latest missions and discoveries</Link></div>
                     <div className="content">Discover a wealth of information about the latest space missions and groundbreaking discoveries by exploring our space exploration website. From cutting-edge research to exciting exploration updates, dive into the fascinating world of outer space exploration with us.</div>
                 </div>
             </div>

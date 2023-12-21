@@ -17,6 +17,10 @@ a {
   color: white;
   text-decoration: none;
 }
+.home-hover:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
 
 .navigatation {
   position: fixed;
@@ -28,6 +32,7 @@ a {
   width: 100%;
   align-items: center;
   background-color: black;
+  z-index: 2;
 }
 .navpoint:active {
   opacity: 0.8;
@@ -99,7 +104,18 @@ button:active {
 }
 .home-grand span {
   font-family: "Heebo", sans-serif;
+  animation:  move 3s linear infinite alternate;
 }
+@keyframes move {
+  from {
+      transform: translateY(2px);
+  }
+
+  to {
+    transform: translateY(-2px);
+  }
+}
+
 .box1 {
   background: url("./Image/backgroung2.jpg") no-repeat center center/cover;
   height: 50vw;
