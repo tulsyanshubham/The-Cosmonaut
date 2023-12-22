@@ -26,7 +26,7 @@ export default function Astronomy() {
         <div className="heading" style={{margin:"6vw 0vw 0vw 5vw"}}>ASTRONOMY PICTURE OF THE DAY</div>
         <div className='astronomybox'>
             <div >
-            <img src={`${data.hdurl}`} alt="API Error" className='h1' style={{width:"38vw",height:"25vw",borderRadius:"10px",backgroundImage: `url(${altimage})`}}/>
+            <img src={`${data.hdurl}`} alt="API Error" className='h1' style={{width:"40vw",height:"25vw",borderRadius:"10px",backgroundImage: `url(${altimage})`}}/>
             </div>
             <div style={{width:"10px",height:"22vw",backgroundColor:"white",borderRadius:"30px"}}></div>
             <div className='astronomydata'>

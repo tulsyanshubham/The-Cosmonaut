@@ -11,6 +11,7 @@ export default function Test() {
   const [satelliteId, setSatelliteId] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
+  const [loadingError, setLoadingError] = useState(false);
 
   const handleChange = (e) => {
     setSatelliteId(e.target.value);
@@ -35,12 +36,14 @@ export default function Test() {
 
   const fetchMoreData = async () => {
     if (!/^\d+$/.test(satelliteId)) {
+      setLoadingError(true);
       setError('Invalid satellite ID. Please enter a valid numeric ID.');
       return;
     }
 
     if (latitude !== null && longitude !== null && satelliteId !== '') {
       setLoad(false)
+      setLoadingError(false)
       setLoading(true);
       const url = `/rest/v1/satellite/positions/${satelliteId}/${latitude}/${longitude}/0/1/&apiKey=HYUPPZ-VLKCBU-6B9DKP-5603`;
       try {
@@ -72,7 +75,7 @@ export default function Test() {
         </div>
       )}
       {error && <p className="h3 mx-5"style={{ color: 'red',}}>{error}</p>}
-      {load &&
+      {load && !loadingError &&
         position.map((satellite, index) => (
       <div style={{border:"2px solod red"}}>
           <div className='satdata' key={index}>
