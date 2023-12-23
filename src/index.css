@@ -104,7 +104,7 @@ button:active {
 }
 .home-grand span {
   font-family: "Heebo", sans-serif;
-  animation:  move 3s linear infinite alternate;
+  animation:  move 2.5s linear infinite alternate;
 }
 @keyframes move {
   from {
