@@ -25,7 +25,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "both": "concurrently \"npm run start\" \"nodemon backend/form.js\""
+    "both": "concurrently \"npm run start\" \"node backend/form.js\"",
+    "dev": "concurrently \"npm run start\" \"nodemon backend/form.js\""
   },
   "eslintConfig": {
     "extends": [
